@@ -3,7 +3,16 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  fireBase: {
+    apiKey: "AIzaSyB8IDf_93rcO96oqGLobbF3u6BPpkFs7AY",
+    authDomain: "chatroom-a4440.firebaseapp.com",
+    databaseURL: "https://chatroom-a4440.firebaseio.com",
+    projectId: "chatroom-a4440",
+    storageBucket: "chatroom-a4440.appspot.com",
+    messagingSenderId: "902787271904",
+    appId: "1:902787271904:web:cacac54c2b118441885485"
+  }
 };
 
 /*
