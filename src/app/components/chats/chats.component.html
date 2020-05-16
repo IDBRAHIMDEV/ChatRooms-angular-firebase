@@ -13,8 +13,8 @@
 
     </ul>
 
-    <input [(ngModel)]="chat.message" type="text" class="form-control">
-    <button (click)="createNewChat()" class="btn btn-primary btn-block">New</button>
+    <input (keyup.enter)="createNewChat()" [(ngModel)]="chat.message" type="text" class="form-control">
+
 
   </div>
 </div>
